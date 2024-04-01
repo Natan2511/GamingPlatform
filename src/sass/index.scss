@@ -1,0 +1,22 @@
+//        base
+@import './base/common';
+
+//        components
+@import './componets/container';
+@import './componets/button';
+@import './componets/active';
+@import './componets/hover';
+
+//        layouts
+@import './layouts/header';
+@import './layouts/footer';
+@import './layouts/page/index/hero';
+@import './layouts/page/index/trending';
+@import './layouts/page/index/info';
+@import './layouts/page/index/features';
+@import './layouts/page/index/projects';
+@import './layouts/page/index/email';
+
+//        utils
+@import './utils/hidden';
+@import './utils/variables';

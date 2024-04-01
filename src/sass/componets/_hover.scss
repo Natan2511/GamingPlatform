@@ -1,0 +1,10 @@
+.hover:hover {
+    color: #E87D0E;
+    transition: var(--transition);
+    text-decoration: underline;
+}
+
+.contacts__icon--effect:hover {
+    transform: var(--transform);
+    transition: var(--transition);
+}

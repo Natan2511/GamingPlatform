@@ -1,0 +1,15 @@
+.container {
+    margin: 0 150px;
+}
+
+.wrapper {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(74, 40, 0, 1) 100%);
+    width: 100%;
+    position: relative;
+
+    &>img {
+        position: absolute;
+        top: -40px;
+        right: 0;
+    }
+}

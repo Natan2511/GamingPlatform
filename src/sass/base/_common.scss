@@ -1,0 +1,68 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+
+html {
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    height: 100%;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    overflow-x: hidden;
+    word-wrap: normal;
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+}
+
+body {
+    background-color: var(--black);
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+
+    color: var(--white);
+
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+button {
+    cursor: pointer;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #D2D2D2;
+}
+
